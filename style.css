@@ -175,6 +175,10 @@ form .exchange-rate{
     font-size: 20px;
     margin: 70px 25px 30px;
 }
+.exchange-button{
+    align-items: center;
+    text-align: center;
+}
 form button{
     margin-left: 37%;
     height: 45px;
@@ -184,6 +188,8 @@ form button{
     cursor: pointer;
     background: #ebe64d;
     transition: 0.3s ease;
+    text-align: center;
+    
 }
 form button:hover{
     background: #675AFE;
