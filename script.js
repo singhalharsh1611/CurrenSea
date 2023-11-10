@@ -46,10 +46,10 @@ function getExchangeRate(){
     const amount = document.querySelector("form input");
     const exchangeRateTxt = document.querySelector("form .exchange-rate");
     let amountVal = amount.value;
-    if(amountVal == "" || amountVal == "0"){
-        amount.value = "1";
-        amountVal = 1;
-    }
+    // if(amountVal == "" || amountVal == "0"){
+    //     amount.value = "1";
+    //     amountVal = 1;
+    // }
     exchangeRateTxt.innerText = "Getting exchange rate...";
     let url = `https://v6.exchangerate-api.com/v6/a91b4ad9e31c1c45d4bac4bf/latest/${fromCurrency.value}`;
     fetch(url).then(response => response.json()).then(result =>{
