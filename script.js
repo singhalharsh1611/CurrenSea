@@ -2,6 +2,7 @@ const dropList = document.querySelectorAll("form select"),
 fromCurrency = document.querySelector(".from select"),
 toCurrency = document.querySelector(".to select"),
 getButton = document.querySelector("form button");
+let key = "39177ababf56be3d2a9b77f7";
 
 for (let i = 0; i < dropList.length; i++) {
     for(let currency_code in country_list){
@@ -51,7 +52,7 @@ function getExchangeRate(){
     //     amountVal = 1;
     // }
     exchangeRateTxt.innerText = "Getting exchange rate...";
-    let url = `https://v6.exchangerate-api.com/v6/39177ababf56be3d2a9b77f7/latest/${fromCurrency.value}`;
+    let url = `https://v6.exchangerate-api./v6/${key}/latest/${fromCurrency.value}`;
     fetch(url).then(response => response.json()).then(result =>{
         let exchangeRate = result.conversion_rates[toCurrency.value];
         let totalExRate = (amountVal * exchangeRate).toFixed(3);
@@ -60,3 +61,4 @@ function getExchangeRate(){
         exchangeRateTxt.innerText = "Something went wrong";
     });
 }
+
