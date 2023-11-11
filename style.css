@@ -1,6 +1,6 @@
 
 #logo{
-    width: 9%
+    width: 9vw;
 }
 #website-name{
     margin-top: -6.5%;
@@ -12,6 +12,7 @@
 .topdiv{
     background-color: #4950a3;
     border-radius: 5px;
+    height:8vw;
 
 }
 #tagline{
@@ -23,17 +24,18 @@
 }
 .topnav {
     background-color: #000;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin-top: 0.3%;
     border-radius: 5px;
+    height: 7.2vh;
   }
   
   .topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    margin-left: 15%;
-    padding: 1% 3%;
+    margin-left: 12%;
+    padding: 1% 2%;
     text-decoration: none;
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
@@ -50,7 +52,7 @@
     background-size: cover; 
     background-position: center;
     height: 100vh; 
-    margin-top: -3.9%;
+    margin-top: -3.8%;
     border-radius: 5px;
 }
 #c-c{
@@ -85,6 +87,7 @@ footer{
     padding-bottom: 3%;
     background-color: #333333;
     text-align: center;
+    line-height: 5px;
     font-family: 'Open Sans',sans-serif;
     font-size: 12px;
     border-radius: 0px 0px 5px 5px;
