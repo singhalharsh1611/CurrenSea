@@ -1,7 +1,7 @@
 let key = "fc64d833cc2f4873a21b42aa3a915b58";
 let cardData = document.querySelector(".cardData")
 const getData = async () => {
-    let response = await fetch(`https://newsapi.org/v2/everything?q=currency-india&apiKey=${key}`);
+    let response = await fetch(`https://newsapi.org/v2/everything?q=currency-india&sortBy=publishedAt&pageSize=75&apiKey=${key}`);
     let jsonData = await response.json();
     console.log(jsonData.articles);
 
