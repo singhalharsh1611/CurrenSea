@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const apiKey = 'd86d135b4e8636660cca673d';
+    const apiKey = '34be67b6d5517478d8e20a6e';
     const apiUrl = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/USD`;
 
     fetch(apiUrl)
