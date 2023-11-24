@@ -15,7 +15,7 @@ const getData = async () => {
         cardData.appendChild(divs);
         divs.innerHTML = `
             <img src="${article.urlToImage}" alt="">
-            <h3>${article.title}</h3>
+            <h3><b>${article.title}</b></h3>
             <p>${article.description}</p>
         `;
 
@@ -27,16 +27,3 @@ const getData = async () => {
 
 getData();
 
-document.querySelector("#next").addEventListener("click", function () {
-    page++;
-    cardData.innerHTML = "";
-    getData();
-});
-
-document.querySelector("#prev").addEventListener("click", function () {
-    if (page > 1) {
-        page--;
-        cardData.innerHTML = "";
-        getData();
-    }
-});
