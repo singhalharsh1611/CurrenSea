@@ -19,7 +19,6 @@ let country_list = {
     "BAM" : "BA",
     "BBD" : "BB",
     "BDT" : "BD",
-    "XOF" : "BE",
     "BGN" : "BG",
     "BHD" : "BH",
     "BIF" : "BI",
