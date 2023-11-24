@@ -22,7 +22,6 @@
     margin-top: -4.6%;
     margin-right: 3.8%;
     color: white;
-
 }
 
 .topnav {
@@ -37,7 +36,7 @@
     float: left;
     color: #f2f2f2;
     text-align: center;
-    margin-left: 12%;
+    margin-left: 7.5%;
     padding: 1% 2%;
     text-decoration: none;
     font-size: 17px;
@@ -55,14 +54,14 @@
     background-image: url("assets/background.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 102vh;
     margin-top: -3.8%;
     border-radius: 5px;
 }
 
 #c-c {
     text-align: center;
-    font-family: 'Merriweather', serif;
+    font-family: 'Aclonica', serif;
     font-weight: 900;
     font-size: 50px;
     padding-top: 2%;
@@ -127,6 +126,15 @@ footer {
     margin-left: 72%;
     margin-top: -7%;
     position: absolute;
+}
+
+.icon{
+    position: absolute;
+    margin-left: 60vw;
+    top: 70%;
+    text-shadow: 2px 2px 2px #ffa31a;
+    color: #fff;
+    
 }
 
 .exchange-rate {
@@ -229,7 +237,7 @@ form button:active {
     margin: auto;
     margin-top: 22px;
     margin-bottom: 30px;
-
+    
 }
 
 .card {
@@ -238,8 +246,7 @@ form button:active {
     padding: 11px;
     margin-top: 30px;
     cursor: pointer;
-
-
+    
 }
 
 .card img {
