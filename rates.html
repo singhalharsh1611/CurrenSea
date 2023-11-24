@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CurrenSea</title>
+  <title>Exchange Rates</title>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="rates-styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
@@ -28,6 +28,7 @@
     <a href="./history.html" style="text-decoration:none">History</a>
     <a href="./news.html" style="text-decoration:none">News</a>
     <a href="./rates.html" style="text-decoration:none">Exchange Rates</a>
+    <a href="./about-us.html" style="text-decoration:none">About Us</a>
   </div>
 
   <div class="main-body">
@@ -36,7 +37,21 @@
       <p id="line">__________________________________________________________________________</p>
       <p id="exchange">Live Exchange Rates: </p>
       
+      <p id="note">The exchange rates are being displayed with <b>USD</b> as Base Currency</p>
+
+      <table class="exchange-table">
+        <tr>
+            
+            <th>Exchange Rate</th>
+            <th>Currency</th>
+        </tr>
+        <!-- Table rows will be dynamically added here using JavaScript -->
+    </table>
+
+      <div id="result"></div>
+      
   </div>
+  <script src="rates-script.js"></script>
 
   
 
