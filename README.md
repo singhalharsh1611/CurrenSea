@@ -1,7 +1,7 @@
 # CurrenSea
 A real time Currency Convertor Website
 
-#Prroblems that this website solves
+## Problems that this website solves
 1. A real time Currency Convertor
 2. Supports 150+ Currencies
 3. Users can see their conversion history
